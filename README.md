@@ -1,3 +1,23 @@
+---
+title: Active Directory Home Lab
+stack:
+  - Windows Server 2022
+  - Windows 10 Pro
+  - Active Directory Domain Services
+  - DNS Server
+  - Group Policy Management
+  - PowerShell
+difficulty: beginner-intermediate
+estimated_time: 8-10 hours
+status: complete
+focus:
+  - Active Directory administration
+  - User and group management
+  - Group Policy configuration
+  - Account lifecycle management
+  - Help Desk triage workflows
+---
+
 ## Lab Scenarios
 
 ### Scenario 1 — Domain Controller Setup

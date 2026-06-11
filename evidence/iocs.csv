@@ -1,0 +1,9 @@
+type,value,context,confidence
+hostname,CLIENT01,Machine where lockout was triggered,High
+username,DiGonz,Account targeted by failed logon attempts,High
+domain,lab.local,Active Directory domain,High
+ip_address,192.168.1.100,CLIENT01 IP address,High
+ip_address,192.168.1.10,DC01 IP address - authenticated the lockout,High
+event_pattern,5 consecutive failed logons,Triggered account lockout policy,High
+policy,Account Lockout Threshold - 5 attempts,Default Domain Policy setting that triggered lockout,High
+tool,Unlock-ADAccount,PowerShell cmdlet used to resolve lockout,High

@@ -1,0 +1,12 @@
+time,event,user,source,details
+T+0:00,Failed logon attempt 1,DiGonz,CLIENT01,Invalid password entered at domain login screen
+T+0:15,Failed logon attempt 2,DiGonz,CLIENT01,Invalid password entered at domain login screen
+T+0:30,Failed logon attempt 3,DiGonz,CLIENT01,Invalid password entered at domain login screen
+T+0:45,Failed logon attempt 4,DiGonz,CLIENT01,Invalid password entered at domain login screen
+T+1:00,Failed logon attempt 5,DiGonz,CLIENT01,Invalid password entered at domain login screen
+T+1:05,Account locked out,DiGonz,DC01,Lockout threshold reached - 5 failed attempts
+T+1:10,Help Desk ticket created,DiGonz,CLIENT01,User unable to log in - account locked
+T+1:15,Lockout confirmed,Administrator,DC01,Search-ADAccount -LockedOut shows DiGonz LockedOut True
+T+1:20,Account unlocked,Administrator,DC01,Unlock-ADAccount -Identity DiGonz executed successfully
+T+1:25,Lockout verified resolved,Administrator,DC01,Search-ADAccount -LockedOut returns empty list
+T+1:30,User logged in successfully,DiGonz,CLIENT01,Domain authentication successful

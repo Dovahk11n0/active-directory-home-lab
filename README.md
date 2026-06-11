@@ -60,7 +60,7 @@ Configured Password Policy and Account Lockout Policy via Default Domain Policy:
 Configured CLIENT01 with static IP and DNS pointing to DC01, then joined the machine to lab.local. Verified domain membership using `whoami` and `%logonserver%` commands.
 
 ### Scenario 7 — Account Lockout Triage
-Simulated a Help Desk ticket: user DiGonz triggered account lockout after 3 failed login attempts. Investigated using PowerShell, confirmed lockout, and resolved using `Unlock-ADAccount` — replicating the most common Help Desk workflow in AD environments.
+Simulated a Help Desk ticket: user DiGonz triggered account lockout after 5 failed login attempts. Investigated using PowerShell, confirmed lockout, and resolved using `Unlock-ADAccount` — replicating the most common Help Desk workflow in AD environments.
 
 ## Detection and Triage Commands
 

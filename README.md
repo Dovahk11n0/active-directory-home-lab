@@ -52,7 +52,7 @@ Configured Password Policy and Account Lockout Policy via Default Domain Policy:
 **Account Lockout Policy:**
 | Setting | Value |
 |---|---|
-| Lockout threshold | 3 invalid attempts |
+| Lockout threshold | 5 invalid attempts |
 | Lockout duration | 30 minutes |
 | Reset lockout counter | 30 minutes |
 
